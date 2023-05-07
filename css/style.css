@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navegador{
+    background-color: rgb(58, 57, 57);
+    color:rgba(141, 138, 138, 0.726);
+    display:flex;
+    justify-content: space-between;
+    font-size: 25px;
+    height: 100px;
+    padding: 0 100px
+    
+}
+.menu{
+    display:flex;
+    line-height: 100px;
+}
+.menuhover:hover{
+    color:white
+}
+
+.menuhover.verde {
+    color:green
+}
+.menuhover.verde:hover {
+    color:rgb(20, 173, 20)
+}
+.letra{
+    color: white;
+    font-size: 25px;
+}
+.imagcodo{
+    height: 80px;
+    padding-top: 15px;
+}
+.tituloOradores{
+    text-align: center;
+    padding: 15px;
+    height: 90px;
+}
+.oradores{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 200px 20px;
+}
+
+.card{
+    margin:20px;
+    border: solid 1px rgb(206, 202, 202);
+}
+.textocards{
+    padding: 20px;
+}
+button{
+    font-weight: 700;
+}
+.js{
+    background-color: orange;
+    border-radius: 5px;
+    border:0px;
+    padding: 0 4px;
+}
+.react{
+    background-color: cadetblue;
+    border-radius: 5px;
+    color: white;
+    border:0px;
+    padding: 0 4px;
+}
+.negocios{
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    border:0px;
+    padding: 0 4px;   
+}
+
+.stp{
+    background-color: rgb(248, 60, 60);
+    border-radius: 5px;
+    color: white;
+    border:0px;
+    padding: 0 4px;
+}
+.contenedor{
+    display: flex;   
+    
+}
+.imagen{
+    width: 50%;
+}
+
+.colum2{
+    background-color: rgb(65, 61, 61);
+    color: rgba(255, 255, 255, 0.815);
+    width: 50%;
+    padding: 20px;
+}
+
+.but {
+    background-color: rgb(65, 61, 61);
+    border: solid 1 px white;
+    border-radius: 5px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.815);
+}
+ 
+.orador {
+    text-align: center;
+    margin: 25px;
+}
+
+.formularios{
+    display:flex;
+    justify-content: space-between;
+}
+
+.formularios input{
+    width: 48%;
+    padding: 7px;
+}
+.txta input{
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px 15px 100px 15px;
+    font-size: 25px;
+}
+
+.btn{
+    background-color: rgb(143, 204, 51);
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+}
+input{
+    border: 1px solid rgb(204, 199, 199);
+    border-radius: 5px
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(4, 63, 78);
+    padding: 20px 150px;
+    margin-top: 20px;
+    color: white;
+    align-items: center;
+    font-size: 18px
+}
+.btnslider{
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 5px
+}
+
+.btnticket{
+    background-color: rgb(61, 196, 61);
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px
+}
