@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de ticket</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="navegador">
+            <div class="menu">
+              <p class="letra">Confi Bs As</p>
+            </div>
+            <li class="menu">
+                <ul class="menuhover">La conferencia</ul>
+                <ul class="menuhover">Los oradores</ul>
+                <ul class="menuhover">El lugar y la fecha</ul>
+                <ul class="menuhover">Conviértete en orador</ul>
+                <ul ><a class="menuhover verde" href="">Comprar ticket</a> </ul>
+            </li>
+        </div>
+
+        <section class="cont">
+        <div class="cartas" >
+          <div>
+            <div class="cardbody uno">
+              <h3>Estudiante</h3>
+                <p>Tiene un descuento</p>
+                <p><strong>80%</strong></p>
+                <p>*presentar documentacion</p>
+            </div>
+          </div>
+          <div >
+            <div class="cardbody dos">
+              <h3>Trainee</h3>
+                <p>Tiene un descuento </p>
+                <p><strong>50%</strong></p>
+                <p>*presentar documentacion</p>
+            </div>
+          </div>
+          <div>
+            <div class="cardbody tres">
+              <h3>Junior</h3>
+              <p>Tiene un descuento </p>
+                <p><strong>15%</strong></p>
+                <p>*presentar documentacion</p>
+            </div>
+          </div>
+        </section>
+    </header>
+    <main >
+        <div class="tituloOradores">
+            <h5>VENTA</h5>
+            <h1>VALOR DEL TICKET $200</h1>
+        </div>
+        <div class="formularios">
+            <input type="text" name="nombre" placeholder="Nombre">
+            <input type="text" name="apellido"placeholder="Apellido">
+        </div>
+        <div class="formularios dos">
+            <input type="text" name="correo"placeholder="correo"> 
+        </div>
+        <form class="formularios">
+          <label for="cantidad"class="bloque"></label>
+          <input type="text" id= "cantidad" placeholder="cantidad">
+          <label for="categoria" class="bloque"></label>
+          <select  name="categoria" id="categoria">
+            <option value="0">--categoria--</option>
+            <option value="0">sin eleccion</option>
+            <option value="1">Estudiante</option>
+            <option value="2">Trainee</option>
+            <option value="3">Junior</option>
+          </select>
+        </form>
+        <div class="formularios">
+            <p class="pago" id="pagar">Total a Pagar: $</p>
+        </div>
+        <div class="formularios">
+           <button type="reset">Borrar</button>
+           <button type="button" id = "calcular" >Resumen</button>
+           <!-- onclick=getValueFromInput() -->
+        </div>
+    </main>
+    
+</body>
+<footer>
+    <li class="footer">
+      <ul>Preguntas <br> frecuentes</ul>
+      <ul>Contáctanos</ul>
+      <ul>Prensa</ul>
+      <ul>Conferencia</ul>
+      <ul>Terminos y <br> condiciones</ul>
+      <ul>Privacidad</ul>
+      <ul>Estudiantes</ul>
+    </li>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script src="./js/script.js"></script>
+</html>

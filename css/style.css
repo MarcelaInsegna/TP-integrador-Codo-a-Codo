@@ -12,8 +12,12 @@
     font-size: 25px;
     height: 100px;
     padding: 0 100px
-    
 }
+
+a{
+    text-decoration: none;
+}
+
 .menu{
     display:flex;
     line-height: 100px;
@@ -38,7 +42,7 @@
 }
 .tituloOradores{
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     height: 90px;
 }
 .oradores{
@@ -116,13 +120,17 @@ button{
 
 .formularios{
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+.formularios input,select,button {
+    width: 25%;
+    padding: 7px;
+    margin:10px
+}
+.formularios.dos input{
+    width: 51%
 }
 
-.formularios input{
-    width: 48%;
-    padding: 7px;
-}
 .txta input{
     width: 100%;
     margin: 15px 0;
@@ -166,4 +174,40 @@ input{
     font-size: 18px;
     color: white;
     border-radius: 5px
+}
+.cartas{
+    display: flex;
+    justify-content: center;
+  
+}
+.cardbody{
+    text-align: center;
+    border:1px solid;
+    padding: 20px;
+    margin: 30px 2px 10px;
+    font-size: 150%;
+}
+.cardbody.uno{
+    border-color: blue;
+}
+.cardbody.dos{
+    border-color: green;
+}
+.cardbody.tres{
+    border-color: orange;
+}
+.pago{
+    width: 51%;
+    padding: 15px;
+    margin:10px;
+    background-color: lightblue;
+    border-radius: 5px;
+    margin:25px
+}
+
+button{
+    background-color: rgba(36, 199, 45, 0.897);
+    color:white;
+    border-radius: 5px;
+    border: none;
 }
