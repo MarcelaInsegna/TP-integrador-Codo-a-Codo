@@ -11,6 +11,9 @@ const calcular = document.getElementById("calcular");
 const pagar = document.getElementById ("pagar");
 
 const botonCalcular = document.getElementById ("calcular");
+const botonBorrar = document.getElementById ("reset");
+
+
 let totalValor=0
 function totalPagar () {
     
@@ -28,6 +31,16 @@ function totalPagar () {
     pagar.innerHTML = `Total a Pagar: $ ${totalValor}` ;
 
 }
-
 botonCalcular.addEventListener("click",totalPagar);
+
+// botonBorrar.reset();
+
+// var elementos = document.getElementsByTagName('input');
+
+// limpiar.onclick = (e)=> { 
+//   e.preventDefault();
+//   for (let i = 0; i < elementos.length; i++) {
+//     elementos[i].value='';          
+//   }
+// }
 
